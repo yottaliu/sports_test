@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>用户登录</title>
+    <style type="text/css">
+        html{font-size:12px;}
+        fieldset{width:300px; margin: 0 auto;}
+        legend{font-weight:bold; font-size:14px;}
+        .label{float:left; width:70px; margin-left:10px;}
+        .left{margin-left:80px;}
+        .input{width:150px;}
+        span{color: #666666;}
+    </style>
+</head>
+<script language=JavaScript>
+<!--
+
+function InputCheck(LoginForm)
+{
+    if (LoginForm.username.value == "")
+    {
+        alert("请输入用户名!");
+        LoginForm.username.focus();
+        return (false);
+    }
+    if (LoginForm.password.value == "")
+    {
+        alert("请输入密码!");
+        LoginForm.password.focus();
+        return (false);
+    }
+}
+
+//-->
+</script>
+<body>
+<div>
+<fieldset>
+    <legend>用户登录</legend>
+    <form name="LoginForm" method="post" action="login.php" onSubmit="return InputCheck(this)">
+        <p>
+        <label for="username" class="label">用户名：</label>
+        <input id="username" name="username" type="text" class="input" />
+        <p/>
+        <p>
+
+        <label for="password" class="label">密&nbsp;&nbsp;&nbsp;码：</label>
+        <input id="password" name="password" type="password" class="input" />
+        <p/>
+        <p>
+
+        <label for="usertype" class="label">身&nbsp;&nbsp;&nbsp;份：</label>
+        <select name="usertype">
+            <option value="管理员" selected="selected" >管理员</option>
+            <option value="素质导师" >素质导师</option>
+            <option value="录入人员" >录入人员</option>
+            <option value="学生" >学生</option>
+        </select>
+
+        <p>
+        <input type="submit" name="submit" value="  确 定  " class="left" />
+        </p>
+    </form>
+</fieldset>
+</div>
+</body>
+</html>
