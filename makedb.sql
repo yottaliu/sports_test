@@ -68,12 +68,12 @@ INSERT INTO user (username, password, type, classid) VALUES ('admin', 'admin', '
 INSERT INTO user (username, password, type, classid) VALUES ('teacher', 'teacher', '素质导师', '1');
 INSERT INTO user (username, password, type, classid) VALUES ('typer', 'typer', '录入人员', '1');
 INSERT INTO user (username, password, type, classid) VALUES ('typer2', 'typer2', '录入人员', '2');
-INSERT INTO info (no, nationid, name, sex, birthday, zipcode, id, address, classid) VALUES ('20144221032', '30', '刘尧', '1', '1995-06-16', '442411', '429021199506160511', '湖北省神农架林区', '1');
-INSERT INTO info (no, nationid, name, sex, birthday, zipcode, id, address, classid) VALUES ('20144221033', '30', '林凡', '1', '1996-03-19', '430223', '420321199603190718', '湖北省武汉市', '1');
-INSERT INTO info (no, nationid, name, sex, birthday, zipcode, id, address, classid) VALUES ('20144221123', '35', '小明', '2', '1996-05-29', '432145', '412431199605294312', '火星', '2');
-INSERT INTO score (no, height, weight, fvc, shortrunning, jump, sitandreach, longrunning, pulluporsitup, lefteye, righteye) VALUES ('20144221032', 171.0, 55.0, 5050, 7.7, 2.31, 18.1, '00:04:20', 25, 3.1, 3.2);
-INSERT INTO score (no, height, weight, fvc, shortrunning, jump, sitandreach, longrunning, pulluporsitup, lefteye, righteye) VALUES ('20144221033', 172.0, 60.5, 5110, 7.3, 2.26, 9.3, '00:04:16', 12, 3.8, 3.6);
-INSERT INTO score (no, height, weight, fvc, shortrunning, jump, sitandreach, longrunning, pulluporsitup, lefteye, righteye) VALUES ('20144221123', 162.0, 45.0, 3400, 9.4, 1.78, 19.8, '00:04:38', 56, 3.6, 3.5);
+INSERT INTO info (no, nationid, name, sex, birthday, zipcode, id, address, classid) VALUES ('20144221333', '30', '哈哈', '1', '1995-01-11', '441111', '422021199501110333', '银河系', '1');
+INSERT INTO info (no, nationid, name, sex, birthday, zipcode, id, address, classid) VALUES ('20144221444', '30', '呼呼', '1', '1996-02-22', '430222', '420321199602220718', '湖北省武汉市', '1');
+INSERT INTO info (no, nationid, name, sex, birthday, zipcode, id, address, classid) VALUES ('20144221555', '35', '小明', '2', '1997-03-33', '432333', '412431199703334312', '火星', '2');
+INSERT INTO score (no, height, weight, fvc, shortrunning, jump, sitandreach, longrunning, pulluporsitup, lefteye, righteye) VALUES ('20144221333', 175.0, 55.0, 5050, 7.7, 2.31, 18.1, '00:04:20', 25, 3.1, 3.2);
+INSERT INTO score (no, height, weight, fvc, shortrunning, jump, sitandreach, longrunning, pulluporsitup, lefteye, righteye) VALUES ('20144221444', 172.0, 60.5, 5110, 7.3, 2.26, 9.3, '00:04:16', 12, 3.8, 3.6);
+INSERT INTO score (no, height, weight, fvc, shortrunning, jump, sitandreach, longrunning, pulluporsitup, lefteye, righteye) VALUES ('20144221555', 162.0, 45.0, 3400, 9.4, 1.78, 19.8, '00:04:38', 56, 3.6, 3.5);
 INSERT INTO class (classid, gradeid, classname) VALUES ('1', '41', '计科1401');
 INSERT INTO class (classid, gradeid, classname) VALUES ('2', '41', '计科1402');
 INSERT INTO class (classid, gradeid, classname) VALUES ('3', '42', '计科1301');
